@@ -105,7 +105,10 @@
 	}
 
 	body {
-		background: #f5f5f5;
+		background: #F9F9FC;
+		background-image: url("images/Background/background1.jpg");
+		background-size: contain;
+		background-attachment: fixed;
 	}
 
 	body, input, select, textarea {
@@ -2923,7 +2926,7 @@
 	}
 
 	#header {
-		background: #444;
+		background: #313537;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
