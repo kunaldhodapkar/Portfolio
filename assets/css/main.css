@@ -1971,8 +1971,8 @@
 
 	.container {
 		margin: 0 auto;
-		max-width: calc(100% - 5em);
-		width: 60em;
+		max-width: calc(100% - 10em);
+		width: 55em;
 	}
 
 		.container.xsmall {
@@ -2250,9 +2250,10 @@
 
 	.box {
 		background: #fff;
-		border-radius: 6px;
-		box-shadow: 0 2px 0 0 #e5e5e5;
-		margin: 0 0 2em 0;
+		/*border: 1px solid #F3F3F6;*/
+		box-shadow: 0px 10px 20px 6px #a0a0ad8f;
+		border-radius: 30px;
+		margin: 0 0 5em 0;
 		padding: 3em;
 	}
 
@@ -3247,7 +3248,7 @@
 /* Main */
 
 	#main {
-		padding: 4em 0;
+		padding: 2em 0;
 	}
 
 		#main > header {
