@@ -112,12 +112,12 @@
 	}
 
 	body, input, select, textarea {
-		color: #777;
-		font-family: "PT Sans", "Source Sans Pro", sans-serif;
-		font-size: 16pt;
-		font-weight: 300;
-		line-height: 1.65em;
-		letter-spacing: -0.015em;
+		color: #313537;
+		font-family: "Merriweather", "Times New Roman", sans-serif;
+		font-size: 1.0625rem; /*17px*/
+		font-weight: 400;
+		line-height: 2.06em;
+		/*letter-spacing: -0.015em;*/
 	}
 
 	a {
@@ -136,8 +136,8 @@
 		}
 
 	strong, b {
-		color: #646464;
-		font-weight: 400;
+		color: #313537;
+		font-weight: 700;
 	}
 
 	em, i {
@@ -149,10 +149,13 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #646464;
-		font-weight: 300;
-		line-height: 1em;
-		margin: 0 0 0.5em 0;
+		color: #313537;
+		font-family: "Lato", "Arial", sans-serif; 
+		font-weight: 700;
+		line-height: initial;
+		margin: 0 0 1.25rem 0; /*20px*/
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -160,33 +163,47 @@
 			text-decoration: none;
 		}
 
-	h2 {
-		font-size: 2.25em;
-		line-height: 1.5em;
-		letter-spacing: -0.035em;
-	}
+	
 
-	h3 {
-		font-size: 1.75em;
-		line-height: 1.5em;
+	h1 {
+		font-size: 2.625rem; /*42px*/
+		line-height: 3.125rem; /*50px*/
+		margin-bottom: 1.875rem; /*30px*/
 		letter-spacing: -0.025em;
 	}
 
+
+	h2 {
+		font-size: 2rem; /*32px*/
+		line-height: 2.5rem; /*40*/
+		letter-spacing: -0.015em;
+	}
+
+	h3 {
+		font-size: 1.5rem; /*24px*/
+		line-height: 1.875rem; /*30px*/
+		letter-spacing: -0.015em;
+	}
+
 	h4 {
-		font-size: 1.1em;
-		line-height: 1.5em;
-		letter-spacing: 0;
+		font-size: 1.25rem; /*20px*/
+		line-height: 1.5625rem; /*25px*/
+		letter-spacing: -0.0em;
 	}
 
 	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
+		font-size: 0.875rem; /*14px*/
+		color: #828282;
+		line-height: 1.0625rem; /*17px*/
+		margin-bottom: 0.3125rem; /*5px*/
 		letter-spacing: 0;
 	}
 
 	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
+		font-size: 0.75rem; /*12px*/
+		line-height: 0.875rem; /*14px*/
+		color: #828282;
+		margin-bottom: 0.3125rem; /*5px*/
 		letter-spacing: 0;
 	}
 
@@ -2250,7 +2267,6 @@
 
 	.box {
 		background: #fff;
-		/*border: 1px solid #F3F3F6;*/
 		box-shadow: 0px 10px 20px 6px #a0a0ad8f;
 		border-radius: 30px;
 		margin: 0 0 5em 0;
