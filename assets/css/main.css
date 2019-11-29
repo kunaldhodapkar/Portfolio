@@ -187,6 +187,7 @@
 		font-size: 1.5rem; /*24px*/
 		line-height: 1.875rem; /*30px*/
 		letter-spacing: -0.015em;
+		margin: 0 0 0.625rem 0; /* 10 px */
 	}
 
 	h4 {
@@ -2007,7 +2008,7 @@
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 10em);
-		width: 55em;
+		width: 50em;
 	}
 
 		.container.xsmall {
@@ -2031,6 +2032,7 @@
 		}
 
 		.container.max {
+			max-width: 100%;
 			width: 100%;
 		}
 
@@ -2287,8 +2289,8 @@
 		background: #fff;
 		box-shadow: 0px 10px 20px 6px #a0a0ad8f;
 		border-radius: 30px;
-		margin: 0 0 5em 0;
-		padding: 3em;
+		margin: 0 0 3.5rem 0;
+		padding: 5em;
 	}
 
 		.box > :last-child {
@@ -2363,12 +2365,17 @@
 			text-align: center;
 		}
 
+		.box.special p {
+			max-width: 35.625rem; /* 570px */
+			margin: 0 auto 2em auto;
+		}
+
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
-			margin: 3em 0 3em -3em;
+			margin: 5em 0 5em -5em;
 			position: relative;
-			width: calc(100% + 6em);
+			width: calc(100% + 10em);
 		}
 
 			.box .image.featured img {
@@ -2380,7 +2387,7 @@
 			.box .image.featured:first-child {
 				border-radius: 6px 6px 0 0;
 				margin-bottom: 3em;
-				margin-top: -3em;
+				margin-top: -5em;
 			}
 
 				.box .image.featured:first-child img {
@@ -2475,8 +2482,9 @@
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
-			top: 0.25em;
+			padding: 0 0.9375rem 0 0;
+			top: 0.25rem;
+			max-width: 21.875rem; /* 350px */
 		}
 
 		.image.right {
