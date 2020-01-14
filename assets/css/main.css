@@ -245,7 +245,7 @@
 
 	blockquote {
 		border: none;
-		width: 40.625rem; /* 650px */
+		max-width: 40.625rem; /* 650px */
 		text-align: center;
 		color: #D6066A;
 		font-family: Merriweather, Times New Roman, serif;
