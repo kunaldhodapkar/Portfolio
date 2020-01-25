@@ -22,6 +22,12 @@
 			}, 100);
 		});
 
+	// Page loader animations.
+		$(window).load(function() {
+			setTimeout(function() {
+				$('.curtain-container').addClass('active')},500)
+		});
+
     // Smooth scroll.
 		$('.smooth-scroll').scrolly();
 		$('.smooth-scroll-middle').scrolly({ anchor: 'middle' });
