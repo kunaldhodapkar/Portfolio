@@ -18,9 +18,9 @@
 	// Play initial animations on page load.
 		$window.on('load', function() {
 			window.setTimeout(function() {
-				$body.removeClass('is-preload');
 				$('.curtain-container').addClass('active');
-			}, 850);
+				$body.removeClass('is-preload');
+			}, 1500);
 		});
 
 		// $(window).load(function() {

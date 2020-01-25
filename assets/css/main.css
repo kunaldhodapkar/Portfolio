@@ -3239,7 +3239,8 @@
 		z-index:9999;
 		height:100%;
 		opacity:1;
-		-webkit-transition:all .25s ease;-o-transition:all .25s ease;
+		-webkit-transition:all .25s ease;
+		-o-transition:all .25s ease;
 		transition:all .25s ease
 	}
 
@@ -3256,9 +3257,10 @@
 		-webkit-transform:translateX(-50%);
 		-ms-transform:translateX(-50%);
 		transform:translateX(-50%);
-		background-color:#f9fbfd;
+		background-color:#F9F9FC;
 		-webkit-transition:all .4s ease;
-		-o-transition:all .4s ease;transition:all .4s ease
+		-o-transition:all .4s ease;
+		transition:all .4s ease
 	}
 
 	.curtain-container:before {
