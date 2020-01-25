@@ -19,14 +19,14 @@
 		$window.on('load', function() {
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
-			}, 100);
+				$('.curtain-container').addClass('active');
+			}, 850);
 		});
 
-	// Page loader animations.
-		$(window).load(function() {
-			setTimeout(function() {
-				$('.curtain-container').addClass('active')},500)
-		});
+		// $(window).load(function() {
+		// 	setTimeout(function() {
+		// 	$('.curtain-container').addClass('active')},500)
+		// });
 
     // Smooth scroll.
 		$('.smooth-scroll').scrolly();

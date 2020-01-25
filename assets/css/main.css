@@ -3211,6 +3211,7 @@
 	}
 
 	/* Add animation to "page content" */
+	
 	.animate-bottom {
 	  position: relative;
 	  -webkit-animation-name: animatebottom;
@@ -3230,28 +3231,77 @@
 	}
 
 
-	.curtain-container{
-		position:fixed;width:100%;top:0;left:0;bottom:0;z-index:9999;
-		height:100%;opacity:1;-webkit-transition:all .25s ease;-o-transition:all .25s ease;
-		transition:all .25s ease}.curtain-container.active{height:0}.curtain-container:before{content:'';
-		width:100%;height:100%;position:absolute;top:0;left:50%;-webkit-transform:translateX(-50%);
-		-ms-transform:translateX(-50%);transform:translateX(-50%);background-color:red;
-		-webkit-transition:all .4s ease;
-		-o-transition:all .4s ease;transition:all .4s ease}.curtain-container:before{animation:slideBgTop 1.1s forwards;
-		-webkit-animation:slideBgTop 1.1s forwards;-webkit-animation-delay:.7s;
-		animation-delay:.7s;-webkit-transition:all .4s ease;
-		-o-transition:all .4s ease;transition:all .4s ease}@-webkit-keyframes slideBgTop{0%{-webkit-animation-timing-function:ease-in-out;
-		-webkit-transform:translateY(0) translateX(-50%);transform:translateY(0) translateX(-50%)}50%{-webkit-transform:translateY(-50%) translateX(-50%) skewY(7deg);
-		transform:translateY(-50%) translateX(-50%) skewY(7deg)}100%{-webkit-transform:translateY(-100%) translateX(-50%) skewY(0);transform:translateY(-100%) translateX(-50%) skewY(0);
-		-webkit-animation-timing-function:ease-in-out}}@keyframes slideBgTop{0%{-webkit-animation-timing-function:ease-in-out;
-		-webkit-transform:translateY(0) translateX(-50%);transform:translateY(0) translateX(-50%)}50%{-webkit-transform:translateY(-50%) translateX(-50%) skewY(7deg);
-		transform:translateY(-50%) translateX(-50%) skewY(7deg)}100%{-webkit-transform:translateY(-100%) translateX(-50%) skewY(0);
-		transform:translateY(-100%) translateX(-50%) skewY(0);
-		-webkit-animation-timing-function:ease-in-out}
+	.curtain-container {
+		position:fixed;
+		width:100%;
+		top:0;left:0;
+		bottom:0;
+		z-index:9999;
+		height:100%;
+		opacity:1;
+		-webkit-transition:all .25s ease;-o-transition:all .25s ease;
+		transition:all .25s ease
 	}
 
+	.curtain-container.active {	
+		height:0
+	}
 
+	.curtain-container:before {
+		content:'';
+		width:100%;
+		height:100%;
+		position:absolute;
+		top:0;left:50%;
+		-webkit-transform:translateX(-50%);
+		-ms-transform:translateX(-50%);
+		transform:translateX(-50%);
+		background-color:#f9fbfd;
+		-webkit-transition:all .4s ease;
+		-o-transition:all .4s ease;transition:all .4s ease
+	}
 
+	.curtain-container:before {
+		animation:slideBgTop 1.1s forwards;
+		-webkit-animation:slideBgTop 1.1s forwards;
+		-webkit-animation-delay:.7s;
+		animation-delay:.7s;-webkit-transition:all .4s ease; 
+		z-index: -1;
+		-o-transition:all .4s ease;transition:all .4s ease
+	}
+
+	@-webkit-keyframes slideBgTop { 
+		0% {
+			-webkit-animation-timing-function:ease-in-out;
+			-webkit-transform:translateY(0) translateX(-50%);
+			transform:translateY(0) translateX(-50%)
+			}
+		50% {
+			-webkit-transform:translateY(-50%) translateX(-50%) skewY(7deg);
+			transform:translateY(-50%) translateX(-50%) skewY(7deg)
+			}
+		100% {
+			-webkit-transform:translateY(-100%) translateX(-50%) skewY(0);
+			transform:translateY(-100%) translateX(-50%) skewY(0);
+			-webkit-animation-timing-function:ease-in-out
+			}
+	}
+
+	@keyframes slideBgTop {
+		0% {
+			-webkit-animation-timing-function:ease-in-out;
+			-webkit-transform:translateY(0) translateX(-50%);
+			transform:translateY(0) translateX(-50%)
+		}
+		50% {
+			-webkit-transform:translateY(-50%) translateX(-50%) skewY(7deg);
+			transform:translateY(-50%) translateX(-50%) skewY(7deg)
+			}
+		100% {
+			-webkit-transform:translateY(-100%) translateX(-50%) skewY(0);
+			transform:translateY(-100%) translateX(-50%) skewY(0);
+			-webkit-animation-timing-function:ease-in-out}
+	}
 
 
 /* Banner */
@@ -3266,13 +3316,13 @@
 
 	
 	#banner {
-		background-attachment: scroll,							fixed;
+		background-attachment: scroll, fixed;
 		background-color: #666;
 		background-image: linear-gradient(#485563, #000000);
 		/*background-image: url("images/overlay.png"), url("../../images/banner.jpg");*/
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
