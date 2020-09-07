@@ -2285,6 +2285,15 @@
 
 /* Box */
 
+
+	#home .box {
+		background: #fff;
+		box-shadow: 0px 5px 9px 0px #a0a0ad8f;
+		border-radius: 30px;
+		margin: 0 0 3.5rem 0;
+		padding: 5em;
+	}
+
 	.box {
 		background: #fff;
 		box-shadow: 0px 5px 9px 0px #a0a0ad8f;
@@ -3346,13 +3355,13 @@
 			font-weight: 400;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
-			padding-top: 1.2em;
+			padding-top: 0.7em;
 		}
 
 		#banner p {
 			position: relative;
 			font-size: 1.25em;
-			margin-bottom: 1.75em;
+			margin-bottom: 1.3em;
 		}
 
 		#banner input[type="submit"],
@@ -3476,14 +3485,14 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #313537;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
 	}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
-			color: inherit;
+			color: #ffffff;
 		}
 
 		#cta form {
@@ -3498,7 +3507,7 @@
 		#cta .button {
 			box-shadow: none;
 			background: #fff;
-			color: #e89980;
+			color: #313537;
 		}
 
 		#cta input[type="text"],
