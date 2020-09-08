@@ -110,9 +110,12 @@
 
 	body {
 		background: #F9F9FC;
-		background-image: url("images/Background/background1.jpg");
 		background-size: contain;
 		background-attachment: fixed;
+	}
+
+	body.landing {
+		background-image: url("images/Background/background1.jpg");
 	}
 
 	body, input, select, textarea {
@@ -253,6 +256,11 @@
 		margin: 1.25rem auto;
 		padding-left: 0;
 		line-height: 3.125rem; /* 50px */
+	}
+
+	hl {
+
+		background-color:#ffff59;
 	}
 
 	pre {
@@ -2296,9 +2304,9 @@
 
 	.box {
 		background: #fff;
-		box-shadow: 0px 5px 9px 0px #a0a0ad8f;
+		box-shadow: 0px 1px 4px 0px #a0a0ad8f;
 		border-radius: 30px;
-		margin: 0 0 3.5rem 0;
+		margin: 0 0 2rem 0;
 		padding: 5em;
 	}
 
