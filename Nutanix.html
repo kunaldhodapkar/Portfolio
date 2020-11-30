@@ -12,6 +12,7 @@
 		<link rel="manifest" href="icons/site.webmanifest">
 		<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
 		<link rel="shortcut icon" href="icons/favicon.ico">
+		<link rel="stylesheet" href="assets/css/jquery.fancybox.min.css" />
 		<meta name="msapplication-TileColor" content="#2b5797">
 		<meta name="msapplication-config" content="icons/browserconfig.xml">
 		<meta name="theme-color" content="#000000">
@@ -23,6 +24,10 @@
   			gtag('js', new Date());
 			gtag('config', 'UA-156565008-1');
 		</script>
+
+		<!-- Fancy Box -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.fancybox.min.js"></script>
 	</head>
 	<body class="is-preload">
 	<script src="assets/js/lottie.js" type="text/javascript"></script>
@@ -239,7 +244,11 @@
 							<p>
 								I mapped user-actions and user-context at various stages in customer's buying journey based on the interview data.
 							</p>
-							<div class="image fit"><img src="images/Nutanix/Buyer Journey.jpg" alt="Images: Buyer actions" /></div><br/>
+							<div class="image fit">
+							<a data-fancybox="images" href="images/Nutanix/Buyer Journey.jpg">
+								<img src="images/Nutanix/Buyer Journey.jpg" alt="Images: Buyer actions" />
+							</a>
+							</div><br/>
 							<p><span class="image left" style="padding-right: 1.875rem"><img src="images/Nutanix/Insight icon.jpg" alt="Insight icon" style="width:60px"/></span>
 							 Users collaborate with colleagues to evaluate a product. Require buy-in from multiple teams. Often have other priority items on list.<br/><br/>
 							</p>
@@ -269,8 +278,9 @@
 								• Providing a tutorial or a catalogue of tutorials to get started.<br/>
 							</p>
 
+
 							<div class="image fit">
-							<a href="images/Nutanix/Onboarding options.jpg" target="_blank">
+							<a data-fancybox="images" href="images/Nutanix/Onboarding options.jpg">
 								<img src="images/Nutanix/Onboarding options.jpg" alt="Onboarding options" />
 							</a>
 							</div><br/>
@@ -307,7 +317,7 @@
 								• Just opening up a new tab with documentation.<br/>
 							</p>
 							<div class="image fit">
-							<a href="images/Nutanix/Guidance options.jpg" target="_blank">
+							<a data-fancybox="images" href="images/Nutanix/Guidance options.jpg">
 								<img src="images/Nutanix/Guidance options.jpg" alt="Guidance options" />
 							</a>
 							</div><br/>
@@ -315,7 +325,11 @@
 								<li><hl>I decided to use self-paced tutorials</hl> as a way to help trial users navigate a product because I discovered <hl>sales team used short tutorials in workshops</hl> to educate new customers about a product <hl>which were very effective.</hl></li>
 							</ul>
 							<br/>
-							<div class="image fit"><img src="images/Nutanix/Tutorial options.jpg" alt="Tutorial options" /></div><br/>
+							<div class="image fit">
+							<a data-fancybox="images" href="images/Nutanix/Tutorial options.jpg">
+								<img src="images/Nutanix/Tutorial options.jpg" alt="Tutorial options" />
+							</a>
+							</div><br/>
 							<ul>
 								<li>I zeroed-in on two options, <hl>a floating panel with tutorial instructions</hl> and a <hl>WalkMe bubble that walks them through instructions one-by-one.</hl> I figured that <hl>both options accomplished required goals.</hl> And so, I was stuck.</li>
 							</ul>
@@ -325,7 +339,10 @@
 							<p>
 								To resolve the conflict, I prototyped a sample tutorial in both the approaches and conducted a <strong>within-subjects study with 7 users.</strong>
 							</p><br/>
-							<div class="image fit"><img src="images/Nutanix/Figma Prototype.png" alt="Image: Figma Prototype" />
+							<div class="image fit">
+							<a data-fancybox="images" href="images/Nutanix/Figma Prototype.png">
+								<img src="images/Nutanix/Figma Prototype.png" alt="Image: Figma Prototype" />
+							</a>
 							<h6 style="text-align: center; padding-top: 0.5rem">Prototyped sample tutorial in both approaches with hi-fi interactions for user evaluation</h6><br/>
 							</div>
 							<div class="image fit"><img src="images/Nutanix/User feedback.jpg" alt="Image: User feedback" /></div><br/>
@@ -387,11 +404,10 @@
 					<div class="box">
 						<h2>Designer's Dilemma– Ideal vs Practical</h2>
 						<p>
-							Mid-point during the internship, business strategy pivoted from it’s decided path. I was shocked to find that my designs were no longer achievable in the available time and resource constraints.<br/><br/>
+							Mid-point during the internship, business strategy pivoted from it’s decided path. I was dejected initially to find that my designs were no longer achievable in the available time and resource constraints.<br/><br/>
 							<strong>I was faced with a tough choice:</strong><br/>
-							1. <hl>Push for the ideal solution</hl> understanding it can’t be shipped within deadline.<br/>
-							2. <hl>Ditch my ideal solution</hl> and work on MVP solution which can be easily shipped.<br/><br/>
-							To resolve the dilemma, I worked double hard to <hl>develop the ideal product trial experience</hl> based on the user research and evaluation data. But subsequently, <hl>utilized my learnings to create a MVP version</hl> which could be shipped for the product launch.
+							Should I keep working on the ideal user experience or should I ditch my work and start over?<br/><br/>
+							To resolve the dilemma, I <hl>developed the ideal product trial experience</hl> based on the evaluation data and subsequently, utilized my learnings to <hl>create minimum viable designs which could be shipped</hl> for the product launch.
 						</p>
 						<blockquote>This showed my vision to the leadership team at the same time helped the them meet critical launch deadlines.✨</blockquote>
 					</div>
@@ -403,9 +419,9 @@
 					<div class="box">
 							<h2>Reflection</h2>
 							<ul>
-								<li><strong>It starts out fuzzy, but keep at it and focus on the process:</strong> I was flustered initially because of complex problem space. However, as I focussed on user research, understanding business context, clarity emerged. Staying laser-focussed on the user, trying to understand their needs, pain-points, motivations helped me bring tremendous value to the project.</li><br/>
-								<li><strong>Get into field, validate assumptions:</strong> When I started out, there were many unknowns. To be able to make informed decisions and validate assumptions, it was important to speak with the users. But I wasn’t confident if interviews were a stretch due to project timeline. Nevertheless, I decided to conduct them. In retrospect, they helped craft first personas and define user journey.</li><br/>
-								<li><strong>Involve stakeholders in the process:</strong> The business needs kept evolving over the course of my internship as the product was WIP. Regularly sharing my work with the leadership helped me think more strategically. In the end, I designed an ideal product trial experience based on the user research and evaluation data. Subsequently, utilized my learnings to create a MVP version which was shipped for the product launch.
+								<li><strong>It starts out fuzzy, but keep at it and focus on the process:</strong> I was flustered initially because of complex problem space. However, as I understood business and user goals, clarity emerged. Staying laser-focussed on the user helped me add crucial value to the project.</li><br/>
+								<li><strong>Get into field, validate assumptions:</strong> I started out with many unknowns. User interviews were necessary to bring clarity but could've stretched the project timeline. Nevertheless, I decided to conduct them. In retrospect, they helped me understand complete user journey and make informed decisions.</li><br/>
+								<li><strong>Involve stakeholders in the process:</strong> The business needs kept evolving over the course of my internship. Regularly sharing my work with the leadership helped me think more strategically. I was able to better support my team at the same time not compromise on the product's experience.
 							</ul>
 							<ul class="actions special small">
 								<li><a href="https://www.linkedin.com/pulse/5-strategies-success-takeaways-from-my-remote-ux-during-dhodapkar/" target="_blank" class="button alt small">Read full article on LinkedIn</a></li>
