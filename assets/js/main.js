@@ -30,7 +30,7 @@
 
     // Smooth scroll.
 		$('.smooth-scroll').scrolly();
-		$('.smooth-scroll-middle').scrolly({ anchor: 'middle' });
+		$('.smooth-scroll-middle').scrolly({ anchor: 'top' });
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
