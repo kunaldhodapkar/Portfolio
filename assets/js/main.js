@@ -67,6 +67,12 @@
 					visibleClass: 'navPanel-visible'
 				});
 
+		// Text Change Banner
+		// var textToShow = ['Mundane to Magical', 'Merry Christmas 🎄'];
+		//	$(document).ready(function() {
+        //		$("#banner h2").html(textToShow[Math.floor(Math.random()* (1 - 0 + 1) + 0)]);
+   		//	});
+
 
 	// Header.
 		if (!browser.mobile
