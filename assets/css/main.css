@@ -2417,7 +2417,7 @@
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
-			margin: 5em 0 5em -5em;
+			margin: 2em 0 2em -5em;
 			position: relative;
 			width: calc(100% + 10em);
 		}
