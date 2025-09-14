@@ -322,6 +322,12 @@
 	}
 
 
+	tag.lightblue {
+		color: #3A6FE9;
+		background: #EDEFFD;
+	}
+
+
 	tag.right {
 		position: relative;
 		float: right;

@@ -7,6 +7,16 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
+
+
+		<script>
+		  var password = prompt("This page is protected. Please enter the password:");
+		  if (password !== "pass123") {
+		    alert("Incorrect password. Redirecting...");
+		    window.location.href = "index.html"; // Change this to your homepage
+		  }
+		</script>
+
 		<div id="page-wrapper">
 
 			<!-- Header -->
